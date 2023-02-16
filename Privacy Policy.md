@@ -1,6 +1,6 @@
 # What user data does this extension use?
-It uses the URLs of tabs.
-It uses the user submitted URLs in the options sections.
+* It uses the URLs of tabs.
+* It uses the user submitted URLs in the options sections.
 
 # Why does this extension need this information and how is it used?
 The URLs of the tabs are used to check if a new tab was created. New tabs have a special URL (e.g. chrome://newtab/). So the extension looks for these special URLs and acts only if the tab URL is the same.
